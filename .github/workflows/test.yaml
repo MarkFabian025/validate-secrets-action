@@ -1,7 +1,9 @@
 on: [push]
 
 jobs:
+
   hello_world_job:
+    environment: dev
     runs-on: ubuntu-latest
     name: Validate secrets in the repository
     steps:
